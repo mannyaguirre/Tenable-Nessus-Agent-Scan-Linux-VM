@@ -1,8 +1,6 @@
 # Tenable Nessus Agent Scan: Linux VM
 
-<img width="678" height="307" alt="linux" src="https://github.com/user-attachments/assets/5976d753-0cab-4ca1-9077-098b5b821300" /> 
-<img width="627" height="168" alt="Screenshot 2026-05-06 172718" src="https://github.com/user-attachments/assets/74a42415-ce15-4a4a-adb2-3cdc7a1226d6" />
-
+<img width="705" height="360" alt="TenableLinux" src="https://github.com/user-attachments/assets/3447ea85-b5a6-4abf-80a0-caea6ad88f21" />
 
 
 ---
