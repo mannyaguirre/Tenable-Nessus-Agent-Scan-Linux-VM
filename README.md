@@ -146,9 +146,24 @@ If you don't complete the link Tenable will not be able to scan the endpoint. Yo
 
 The seventh step was to review the results from the scan and observe the vulnerabilities found. 
 
+After the scan was completed the results showed the following results:
+
+| Severity | Vulnerability |
+|---|---|
+| HIGH | 5 |
+| MEDIUM | 1 |
+| LOW | 1 |
+
 ### Why This Step Matters
 
 By analyzing the scan you can find the solutions to remediate the vulnerabilities.
+
+<img width="1915" height="971" alt="lab11" src="https://github.com/user-attachments/assets/c5daccd2-fd69-4e15-abb7-ced2e7b04b7a" />
+
+### Details for one of the vulnerabilties and the solution to remediate
+
+<img width="1918" height="983" alt="lab12" src="https://github.com/user-attachments/assets/6432408f-38a5-438b-a2b8-955a61a9cf04" />
+
 
 ---
 
