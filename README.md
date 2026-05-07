@@ -57,7 +57,7 @@ By the end of this lab I was able to:
 
 The first step was to provision a Linux virtual machine using Microsoft Azure
 
-### Why This Step Matters
+### Why This Matters?
 
 The VM will act as the endpoint for the Basic Agent Scan
 
@@ -76,7 +76,7 @@ The second step was to create a **Nessus Agent Group** in Tenable. To create a N
 5. Agent Groups
 6. Add Agent Group
 
-### Why This Step Matters
+### Why This Matters?
 
 A Nessus Agent Group groups together different endpoints across an organization to help tailor scans based on business needs. For the purpose of the lab we only created one VM which was included in the ***Linux-Agent-Group-1.*** Had we created mutiple Linux VMs, then those VMs could have been grouped into the same ***Linux-Agent-Group-1.***
 
@@ -106,7 +106,7 @@ The fourth step was to obtain the key to link our VM to Tenable. The location of
 4. Nessus Agents
 5. Add Nessus Agent
 
-### Why This Step Matters
+### Why This Matters?
 
 The key is a neccessary component to link the virtual machine (or any target endpoint) to Tenable. Without the key, Tenable will not be able to be linked and will not be able to scan the endpoint. 
 
@@ -118,7 +118,7 @@ The key is a neccessary component to link the virtual machine (or any target end
 
 The fifth step was to connect to our VM in terminal via SSH. Another option to connect to the VM was using bashion in Azure. 
 
-### Why This Step Matters
+### Why This Matters?
 
 If we are not able to connect to our virtual machine then we cannot link the Nessus agent to the endpoint.
 
@@ -134,7 +134,7 @@ If we are not able to connect to our virtual machine then we cannot link the Nes
 
 The sixth step was to use `sudo -i` to gain root access in terminal and link the endpoint to Tenable. 
 
-### Why This Step Matters
+### Why This Matters?
 
 If you don't complete the link Tenable will not be able to scan the endpoint. You need root elevated permission to complete the link in terminal.
 
@@ -154,7 +154,7 @@ After the scan was completed the results showed the following results:
 | MEDIUM | 1 |
 | LOW | 1 |
 
-### Why This Step Matters
+### Why This Matters?
 
 By analyzing the scan you can find the solutions to remediate the vulnerabilities.
 
