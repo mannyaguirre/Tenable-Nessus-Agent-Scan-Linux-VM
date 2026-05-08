@@ -7,7 +7,7 @@
 
 ## Overview
 
-In this lab I provisioned a Linux machine, created a Nesuss Agent Group in Tenable, created a Basic Agent Scan under Nessus Agent, configured the scan to be triggered scan with filename, connected to the Linux VM via SSH with an optional Bashion connection via Azure,  linked the Nessus agent to Tenable Vulnerability Management using the linking key, triggered the Basic Agent Scan by creatinga file in root via in terminal, observed the results of the scan, deleted the Linux VM.
+In this lab I provisioned a Linux machine, created a Nesuss Agent Group in Tenable, created a Basic Agent Scan under Nessus Agent, configured the scan to be triggered scan with filename, connected to the Linux VM via SSH with an optional Bastion connection via Azure,  linked the Nessus agent to Tenable Vulnerability Management using the linking key, triggered the Basic Agent Scan by creatinga file in root via in terminal, observed the results of the scan, deleted the Linux VM.
 
 ---
 
@@ -116,7 +116,7 @@ The key is a neccessary component to link the virtual machine (or any target end
 
 ## Step 5: Connect to Linux VM via SSH
 
-The fifth step was to connect to our VM in terminal via SSH. Another option to connect to the VM was using bashion in Azure. 
+The fifth step was to connect to our VM in terminal via SSH. Another option to connect to the VM was using bastion in Azure. 
 
 ### Why This Matters?
 
@@ -125,7 +125,7 @@ If we are not able to connect to our virtual machine then we cannot link the Nes
 ### Connection via SSH
 <img width="1918" height="1072" alt="Lab6" src="https://github.com/user-attachments/assets/09f55bed-5f63-40d9-9d70-2878e62767e8" />
 
-### Connection via Bashion
+### Connection via Bastion
 <img width="1918" height="979" alt="Lab5" src="https://github.com/user-attachments/assets/601ac8c1-3ba4-4f28-b13f-c070aaa9698a" />
 
 ---
