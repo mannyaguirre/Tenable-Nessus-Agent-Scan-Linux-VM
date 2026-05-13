@@ -7,6 +7,9 @@
 
 ## Overview
 
+The purpose of this lab was to complete a ***Basic Agent Scan***. A Basic Agent Scan is a vulnerability scan that runs through a Nessus Agent installed directly on the target endpoint. As opposed to scanning the endpoint through the network, the Nessus Agent collects data directly from the machine where it was installed.
+
+
 In this lab I provisioned a Linux machine, created a Nesuss Agent Group in Tenable, created a Basic Agent Scan under Nessus Agent, configured the scan to be triggered scan with filename, connected to the Linux VM via SSH with an optional Bastion connection via Azure,  linked the Nessus agent to Tenable Vulnerability Management using the linking key, triggered the Basic Agent Scan by creatinga file in root via in terminal, observed the results of the scan, deleted the Linux VM.
 
 ---
